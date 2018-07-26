@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">MyMaterialDesignDemo</string>
+    <string name="title_activity_bottom_app_bar">BottomAppBar</string>
+
+    <string name="title_bottom_app_bar">Bottom App Bar</string>
+    <string name="title_bottom_navigation_bar">Bottom Navigation Bar</string>
+    <string name="title_snack_bar">Snackbar</string>
+    <string name="title_model_bottom_sheets">Modal Bottom Sheets</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_movie">Movie</string>
+    <string name="my_notifications">My Notifications</string>
+    <string name="my_dashboard">Dashboard</string>
+
+
+    <string name="bottom_app_bar">Bottom App Bars</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+    <string name="fab">Floating Action Buttons</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="model_bottom_sheets">Modal Bottom Sheets</string>
+    <string name="show_model_bottom_sheets">Show Modal Sheets</string>
+    <string name="center">Center</string>
+    <string name="end">End</string>
+    <string name="fab_show">Show fab</string>
+    <string name="fab_hide">Hide fab</string>
+    <string name="simple_snackbar">Simple snackbar</string>
+    <string name="action_snackbar">With action</string>
+    <string name="custom_snackbar">Custom snackbar</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="ahmedabad">Ahmedabad</string>
+    <string name="food">Cheese Maggi</string>
+    <string name="show_model_bottom_sheets_dialog">Bottom Sheet Dialog</string>
+
+
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="send">Send</string>
+    <string name="set_as_ringtone">Set as ringtone</string>
+    <string name="stop_using_timer">Stop using timer</string>
+    <string name="delete">Delete</string>
+    <string name="top_app_bars">Top App Bars</string>
+    <string name="text_collapsing_view">\t\tCoordinatorLayout is a super-powered FrameLayout. CoordinatorLayout is intended for two primary use cases:As a top-level application decor or chrome layout.As a container for a specific interaction with one or more child views.
+    \n\n\tBy specifying Behaviors for child views of a CoordinatorLayout you can provide many different interactions within a single parent and those views can also interact with one another. View classes can specify a default behavior when used as a child of a CoordinatorLayout using the DefaultBehavior annotation.
+    \n\n\tOn the other hand, CollapsingToolbarLayout is a wrapper for Toolbar which implements a collapsing app bar. It is designed to be used as a direct child of a AppBarLayout. CollapsingToolbarLayout contains the following features: Collapsing title, Content scrim, Status bar scrim, Parallax scrolling children and Pinned position children.
+     \n\n\tBy specifying Behaviors for child views of a CoordinatorLayout you can provide many different interactions within a single parent and those views can also interact with one another. View classes can specify a default behavior when used as a child of a CoordinatorLayout using the DefaultBehavior annotation.
+    \n\n\tOn the other hand, CollapsingToolbarLayout is a wrapper for Toolbar which implements a collapsing app bar. It is designed to be used as a direct child of a AppBarLayout. CollapsingToolbarLayout contains the following features: Collapsing title, Content scrim, Status bar scrim, Parallax scrolling children and Pinned position children.</string>
+    <string name="text_field">Text Fields</string>
+    <string name="btn_login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="close_sheet">Close sheet</string>
+    <string name="expand_sheet">Expand Sheet</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="retry">Retry</string>
+    <string name="data_deleted">Data deleted</string>
+    <string name="data_restored">Data is restored</string>
+    <string name="undo">Undo</string>
+    <string name="fab_click">Floating Action Button click!!!</string>
+    <string name="title_material_design">Material Design</string>
+    <string name="item">Item</string>
+</resources>

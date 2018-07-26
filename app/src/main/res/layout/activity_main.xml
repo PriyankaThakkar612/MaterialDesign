@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen_10dp"
+    android:gravity="center"
+    tools:context=".ui.MainActivity">
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_bottom_app_bar"
+        style="?android:attr/imageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:text="@string/bottom_app_bar"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        tools:targetApi="lollipop" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_bottom_navigation"
+        style="?android:attr/imageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_bottom_app_bar"
+        android:padding="25dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:text="@string/bottom_navigation"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        tools:targetApi="lollipop" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_snackbar"
+        style="?android:attr/imageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_bottom_navigation"
+        android:padding="25dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:text="@string/snackbar"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        tools:targetApi="lollipop" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_model_bottom_sheets"
+        style="?android:attr/imageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_snackbar"
+        android:padding="20dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:text="@string/model_bottom_sheets"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:strokeWidth="10dp"
+        tools:targetApi="lollipop" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_top_app_bars"
+        style="?android:attr/imageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_model_bottom_sheets"
+        android:padding="20dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:text="@string/top_app_bars"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:strokeWidth="10dp"
+        tools:targetApi="lollipop" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_text_field"
+        style="?android:attr/imageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_top_app_bars"
+        android:padding="20dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:text="@string/text_field"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:strokeWidth="10dp"
+        tools:targetApi="lollipop" />
+
+</RelativeLayout>

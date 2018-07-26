@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen_10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:drawableLeft="@android:drawable/ic_media_play"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/add_to_playlist"
+        android:textColor="@android:color/black"
+        android:drawableStart="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:drawableLeft="@android:drawable/ic_menu_send"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/send"
+        android:textColor="@android:color/black"
+        android:drawableStart="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:drawableLeft="@android:drawable/ic_menu_set_as"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/set_as_ringtone"
+        android:textColor="@android:color/black"
+        android:drawableStart="@android:drawable/ic_menu_set_as" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+        android:drawableStart="@android:drawable/ic_menu_close_clear_cancel"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/stop_using_timer"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:drawableLeft="@android:drawable/ic_menu_delete"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/delete"
+        android:textColor="@android:color/black"
+        android:drawableStart="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>
